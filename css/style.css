@@ -141,4 +141,15 @@ footer{
   height: auto;
 }
 
+.header2 {
+  padding: 10px;
+  text-align: center;
+  background: #249c7a;
+  color: white;
+  font-size: 20px;
+}
 
+.header3 {
+  color: #249c7a;
+  text-align: center;
+}
