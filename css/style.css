@@ -141,6 +141,10 @@ footer{
   height: auto;
 }
 
+.header {
+  text-align: center;
+}
+
 .header2 {
   padding: 10px;
   text-align: center;
