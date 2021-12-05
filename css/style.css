@@ -6,13 +6,6 @@ body{
   background-color: white;
 }
 
-#entireHeader {
-  width: 100%; 
-  background-image: url("../img/headerBackground.png");
-  bottom: 15px;
-  position: relative;
-}
-
 #allContent {
   width: 80%;
   margin: auto;
@@ -81,35 +74,9 @@ body{
   font-size: 16px;
 }
 
-.card:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-}
-
-.card-content {
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  width: 100%;
-}
-
-.card-title {
-  background-color: grey;
-  margin-top: 0px;
-  font-size: 25px;
-  color: white;
-  position: relative;
-  bottom: 3px;
-  height: 35px;
-}
-
 a {
   color: black;
   text-decoration: none;
-}
-
-#thumbUp, #thumbDown {
-  height: 140px;
-  margin-bottom: 5px;
 }
 
 a {
@@ -153,43 +120,6 @@ footer{
   margin-right: auto;
   border: 2px solid #dbdbdb;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
-}
-
-#showcase {
-  background-color: #ededed;
-  border: 2px solid #dbdbdb;
-  height: 55%;
-  width: 60%;
-  margin:0 auto;
-  padding: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
-
-}
-
-#console-box{
-  position:relative;
-  height:300px;
-  width:40%;
-  background-color:#000;
-  color: #55ff55;
-  font-family: monospace;
-  padding:6px; 
-  margin: 2% auto;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
-  border: 2px solid #161616;
-  font-size: 14px;
-}
-
-#gradeSelection, #moreDetail {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.grade{
-  width: 10%;
 }
 
 .detail {
